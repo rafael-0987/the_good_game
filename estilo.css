@@ -1,7 +1,7 @@
 
 
 #conteiner {
-    width: 1024px;
+    width: 80%;
     margin: 0% auto;
 }
 
@@ -17,9 +17,9 @@
 }
 
 #links a {
-    background: rgba(16, 24, 100, 0.797);
+    background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 0% 170px;
+    margin: 0% 8%;
     text-decoration: none;
     font-size: 36px;
     border-radius: 10px;
@@ -27,23 +27,37 @@
 }
 
 #links a:hover {
-    background: rgba(16, 24, 100, 0.565);
+    background: rgba(66, 68, 83, 0.565);
     color: rgba(0, 0, 0, 0.798);
 }
 
+.descricao_jogo {
+    font-size: 64px;
+    text-align: center;
+    border: 2px solid black;
+    background: rgba(0, 0, 0, 0.307);
+}
+
 #posts {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #coluna1 {
     float: left;
-    width: 49%;
+    width: 30%;
 }
-#coluna1 p {
+.sublinhado{
     text-decoration: underline;
 }
 
 #coluna2 {
-    float: right;
-    width: 49%;
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+}
+
+#coluna3 {
+    float: left;
+    margin-left: 5%;
+    width: 30%;
 }
